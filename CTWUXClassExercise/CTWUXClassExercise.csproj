@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Properties\codeTheWay.html" />
+    <Content Include="Properties\heroesForHealthcare.html" />
+    <Content Include="Properties\lifeNavigators.html" />
+    <Content Include="Properties\media.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
