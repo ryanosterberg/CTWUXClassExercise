@@ -6,7 +6,7 @@
     <title>Code the Way</title>
 </head>
 
-<body>
+<body onload="hide()">
 
     <img src="/Images/CodeTheWay Logo.png" height="5%" width="10%" /><h1 align="center" class="heading1">Code the Way</h1>
 
@@ -22,7 +22,7 @@
     <h3 class="heading2">Vision</h3>
     <p class="body">High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields.</p>
     
-    <button onclick="myFunction()" class="button">How It Began</button>
+    <button onclick="showHide()" class="button">How It Began</button>
     <div id="summer">In the summer of 2017, Code The Way began it's first internship opportunity at the company SafeNet Consulting. There, students built a customized full-stack solution for the non-profit organization Life Navigators.</div>
 
     <h3 class="heading2">Links</h3>
@@ -34,7 +34,7 @@
 
 </html>
 <script>
-    function myFunction() {
+    function showHide() {
         var x = document.getElementById("summer");
         if (x.style.display !== "none") {
             x.style.display = "none";
@@ -42,6 +42,11 @@
         else {
             x.style.display = "block";
         }
+    }
+
+    function hide() {
+        var y = document.getElementById("summer");
+        y.style.display = "none";
     }
 </script>
 
