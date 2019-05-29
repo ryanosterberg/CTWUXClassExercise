@@ -2,6 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="codeTheWaycss.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <meta charset="utf-8" />
     <title>Life Navigators</title>
 </head>
@@ -20,6 +22,10 @@
     <p class="body">
         Life Navigators envisions an inclusive community where individuals with disabilities and their support networks experience full participation and maximized independence. Our community will value the rights, hopes, dreams and contributions of all people with disabilities.
     </p>
+
+    <ul class="list-inline">
+        <li><a class="body" href="#" data-toggle="tooltip" data-placement="bottom" title="Life Navigators is always looking for volunteers!">Volonteering</a></li>
+    </ul>
     
     <h3 class="heading2">History</h3>
     <p class="body">
@@ -63,3 +69,9 @@
 </body>
 </html>
 
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    
+</script>

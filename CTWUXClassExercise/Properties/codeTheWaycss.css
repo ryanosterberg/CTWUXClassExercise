@@ -16,6 +16,20 @@
     color: black;
     font-size: medium;
 }
+    .body + .tooltip > .tooltip-inner {
+        background-color: #557A95;
+        color: #FFFFFF;
+        border: 1px solid #557A95;
+        padding: 15px;
+        font-size: 20px;
+        font-family: Georgia;
+        color: #FFFFFF;
+        font-size: small;
+    }
+
+    .body + .tooltip.bottom > .tooltip-arrow {
+        border-bottom: 5px solid #557A95;
+    }
 
 #summer {
     width: 100%;
@@ -27,6 +41,8 @@
     color: black;
     font-size: medium;
 }
+
+
 
 .button {
     background-color: #557A95;
