@@ -1,12 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=divice-width, initial-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="codeTheWaycss.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=divice-width, initial-scale=1" />
+
     <title>Life Navigators</title>
 </head>
 <body onload="hide()">
@@ -66,9 +67,7 @@
             <p class="body">
                 Life Navigators envisions an inclusive community where individuals with disabilities and their support networks experience full participation and maximized independence. Our community will value the rights, hopes, dreams and contributions of all people with disabilities.
             </p>
-            <div class="container">
                 <a class="body" href="#" data-toggle="tooltip" data-placement="bottom" title="Life Navigators is always looking for volunteers!">Volunteering</a>
-            </div>
         </div>
     </div>
     <br />
@@ -133,6 +132,10 @@
 </html>
 
 <script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+
     function showHide() {
         var x = document.getElementById("history");
         if (x.style.display !== "none") {
@@ -148,8 +151,6 @@
         y.style.display = "none";
     }
 
-    $(document).ready(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-    });
+
     
 </script>
