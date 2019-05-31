@@ -1,23 +1,25 @@
 ﻿
-.heading1 {
+.majorHeading {
     font-family: Georgia;
+    font-weight:bold;
     color: black;
     font-size: xx-large;
 }
 
-.heading2 {
+.minorHeading {
     font-family: Georgia;
+    font-weight: bold;
     color: #557A95;
     font-size: x-large;
 }
 
-.body {
+.bodyText {
     font-family: Georgia;
     color: black;
     font-size: medium;
 }
 
-.button {
+.buttonFormatting {
     background-color: #557A95;
     border: 2px solid #557A95;
     color: white;
@@ -32,7 +34,7 @@
     transition-duration: 0.4s;
 }
 
-    .button:hover {
+    .buttonFormatting:hover {
         background-color: white;
         color: #557A95;
         
