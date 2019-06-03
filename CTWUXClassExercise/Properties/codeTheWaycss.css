@@ -1,60 +1,48 @@
 ﻿
-.heading1 {
+.majorHeading {
     font-family: Georgia;
+    font-weight: bold;
     color: black;
     font-size: xx-large;
 }
 
-.heading2 {
+.minorHeading {
     font-family: Georgia;
+    font-weight: bold;
     color: #557A95;
     font-size: x-large;
 }
 
-.body {
+.bodyText {
     font-family: Georgia;
     color: black;
     font-size: medium;
 }
-    .body + .tooltip > .tooltip-inner {
-        background-color: #557A95;
-        border: 2px solid #557A95;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        margin: 4px 2px;
-        cursor: pointer;
-        transition-duration: 0.4s;
+.bodyText + .tooltip > .tooltip-inner {
+    background-color: #557A95;
+    border: 2px solid #557A95;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 1px solid #557A95;
+    padding: 15px;
+    font-size: small;
+}
 
-
-        border: 1px solid #557A95;
-        padding: 15px;
-        font-size: small;
-    }
-
-    .body + .tooltip.bottom > .tooltip-arrow {
-        border-bottom: 2px solid #557A95;
-
-        display: inline-block;
-        margin: 4px 2px;
-    }
-
-#summer {
-    width: 100%;
-    padding: 20px 0;
-    text-align: left;
-    background-color: white;
-    margin-top: 5px;
-    font-family: Georgia;
-    color: black;
-    font-size: medium;
+.bodyText + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 2px solid #557A95;
+    display: inline-block;
+    margin: 4px 2px;
 }
 
 
 
-.button {
+.buttonFormatting {
     background-color: #557A95;
     border: 2px solid #557A95;
     color: white;
@@ -69,10 +57,8 @@
     transition-duration: 0.4s;
 }
 
-    .button:hover {
+    .buttonFormatting:hover {
         background-color: white;
         color: #557A95;
-        
     }
-
-
+   
