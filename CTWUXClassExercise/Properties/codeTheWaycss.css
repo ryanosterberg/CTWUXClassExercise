@@ -1,13 +1,13 @@
-﻿
-.majorHeading {
+﻿.majorHeading {
     font-family: Georgia;
+    font-weight: bold;
     color: black;
     font-size: xx-large;
-    text-align: center;
 }
 
 .minorHeading {
     font-family: Georgia;
+    font-weight: bold;
     color: #557A95;
     font-size: x-large;
 }
@@ -28,8 +28,6 @@
         margin: 4px 2px;
         cursor: pointer;
         transition-duration: 0.4s;
-
-
         border: 1px solid #557A95;
         padding: 15px;
         font-size: small;
@@ -37,7 +35,6 @@
 
     .bodyText + .tooltip.bottom > .tooltip-arrow {
         border-bottom: 2px solid #557A95;
-
         display: inline-block;
         margin: 4px 2px;
     }
@@ -61,7 +58,4 @@
     .buttonFormatting:hover {
         background-color: white;
         color: #557A95;
-        
     }
-
-
