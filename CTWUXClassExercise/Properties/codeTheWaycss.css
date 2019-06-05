@@ -18,6 +18,7 @@
     color: black;
     font-size: medium;
 }
+
     .bodyText + .tooltip > .tooltip-inner {
         background-color: #557A95;
         border: 2px solid #557A95;
@@ -60,4 +61,3 @@
         background-color: white;
         color: #557A95;
     }
-   
