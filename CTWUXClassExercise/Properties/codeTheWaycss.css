@@ -1,23 +1,23 @@
 ﻿
-.heading1 {
+.majorHeading {
     font-family: Georgia;
     color: black;
     font-size: xx-large;
     text-align: center;
 }
 
-.heading2 {
+.minorHeading {
     font-family: Georgia;
     color: #557A95;
     font-size: x-large;
 }
 
-.body {
+.bodyText {
     font-family: Georgia;
     color: black;
     font-size: medium;
 }
-    .body + .tooltip > .tooltip-inner {
+    .bodyText + .tooltip > .tooltip-inner {
         background-color: #557A95;
         border: 2px solid #557A95;
         color: white;
@@ -35,7 +35,7 @@
         font-size: small;
     }
 
-    .body + .tooltip.bottom > .tooltip-arrow {
+    .bodyText + .tooltip.bottom > .tooltip-arrow {
         border-bottom: 2px solid #557A95;
 
         display: inline-block;
@@ -43,7 +43,7 @@
     }
 
 
-.button {
+.buttonFormatting {
     background-color: #557A95;
     border: 2px solid #557A95;
     color: white;
@@ -58,7 +58,7 @@
     transition-duration: 0.4s;
 }
 
-    .button:hover {
+    .buttonFormatting:hover {
         background-color: white;
         color: #557A95;
         
