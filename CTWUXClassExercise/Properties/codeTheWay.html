@@ -8,12 +8,12 @@
     <title>Code the Way</title>
 </head>
 
-<body onload="hide()">
+<body onload="showHide()">
 
     <img src="/Images/CodeTheWay Logo.png" height="5%" width="10%" />
-    <h1 align="center" class="majorHeading">Code the Way</h1>
+    <p align="center" class="majorHeading">Code the Way</p>
 
-    <h3 class="minorHeading">Mission</h3>
+    <p class="minorHeading">Mission</p>
     <div class="bodyText">
         <p>Code the Way facilitates the collaboration of schools, companies, and nonprofits to: (1) Offer students advanced computer science training and real-world job experiences working on projects that benefit nonprofits; (2) Increase certified computer science teachers; and (3) Contribute to the technology talent base.</p>
         <p>Code the Way model includes:</p>
@@ -27,12 +27,12 @@
 
     <button onclick="showHide()" class="buttonFormatting">Show Vision</button>
     <div id="vision">
-        <h3 class="minorHeading">Vision</h3>
+        <p class="minorHeading">Vision</p>
         <div class="bodyText">
             <p>High school students in Greater Milwaukee have access to high quality computer science education and real-world job experiences, positioning them for success in technology-related fields.</p>
         </div>
     </div>
-    <h3 class="minorHeading">Links</h3>
+    <p class="minorHeading">Links</p>
     <a href="lifeNavigators.html" class="buttonFormatting">Life Navigators</a>
     <a href="heroesForHealthcare.html" class="buttonFormatting">Heroes For Healthcare</a>
     <a href="media.html" class="buttonFormatting">Media</a>
@@ -51,12 +51,7 @@
         }
     }
 
-    function hide() {
-        var y = document.getElementById("vision");
-        y.style.display = "none";
-    }
-
-    $(document).ready(function () {
+   $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
     });
 </script>

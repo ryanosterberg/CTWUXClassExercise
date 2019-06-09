@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=divice-width, initial-scale=1" />
     <title>Heroes For Healthcare</title>
 </head>
-<body onload="hide()">
+<body onload="showHide()">
 
     <img src="/Images/Heroes Logo.png" height="5%" width="10%" />
-    <h1 align="center" class="majorHeading">Heroes For Healthcare</h1>
+    <p align="center" class="majorHeading">Heroes For Healthcare</p>
 
     <img src="/Images/Heroes2.png" height="20%" width="35%" align="left" />
     <br />
-    <h3 class="minorHeading">Mision</h3>
+    <p class="minorHeading">Mision</p>
     <div class="bodyText">
         <p>Our non-profit organization is a resource for our military personnel to start a career in healthcare.</p>
     </div>
@@ -22,7 +22,7 @@
     <br />    <br />    <br />    <br />    <br />    <br />
     <img src="/Images/Heroes3.png" height="20%" width="35%" align="right" />
 
-    <h3 class="minorHeading">Unemployed Veterans</h3>
+    <p class="minorHeading">Unemployed Veterans</p>
     <div class="bodyText">
         <p>Many U.S. Veterans find it hard to secure a job in healthcare when they’re ready to work in the civilian world. Even after showing dedication, strong work ethic, and leadership while serving our country, many military members can’t find jobs.</p>
         <ul>
@@ -37,7 +37,7 @@
     <br />
 
     <div id="message">
-        <h3 class="minorHeading">Message From the President</h3>
+        <p class="minorHeading">Message From the President</p>
         <div class="bodyText">
             <p>
                 I started Heroes for Healthcare to help our U.S. military personnel receive the resources and credentials they need to continue their career in healthcare as a civilian.
@@ -60,11 +60,6 @@
         else {
             x.style.display = "block";
         }
-    }
-
-    function hide() {
-        var y = document.getElementById("message");
-        y.style.display = "none";
     }
 
     $(document).ready(function () {
